@@ -25,5 +25,5 @@ Copyright (c) 2016, Diego A. Diaz.
       cmake ../ (if you also want to build the unit tests, cmake -DBUILD_TESTS=ON ../)
       make
 
-**NOTE**: inside the bin folder you will find the executables
+**NOTE**: inside the bin folder you will find the binaries
 
