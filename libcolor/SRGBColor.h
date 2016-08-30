@@ -96,11 +96,11 @@ private:
     SRGBVal _convertRGBIntoSRGSpace(RGBVal rgb) const;
 
     /**
-     * @brief [brief description]
-     * @details [long description]
+     * @brief For more details, \sa
+     * https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
      *
-     * @param rgb [description]
-     * @return [description]
+     * @param rgb A standard rgb value
+     * @return a standard rgb value
      */
     SRGBVal _getCorrectValueAccordingGamma(SRGBVal rgb) const;
 
